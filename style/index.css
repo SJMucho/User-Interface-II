@@ -54,17 +54,22 @@ p {
   width:100%;
   display: flex;
   padding: 40px;
+  height: 30%;
+  margin: o auto;
 }
+
 .container2 img {
-  width: 200px;
+  width: 30%;
   height: 300px;
   margin: 10px;
 }
 .p2 {
-  width: 400px;
+  width: 30%;
+  height: 30%;
   font-size: 25px;
   margin: 40px;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -90,3 +95,12 @@ button {
 button a:hover {
   background-color: grey;
 }
+.social {
+  background-color: violet;
+}
+
+@media(max-width: 500px){
+  .container2 {
+      background-color: grey;
+      flex-direction: column;
+  }
