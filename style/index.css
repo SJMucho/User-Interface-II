@@ -1,1 +1,106 @@
-/* Add CSS styling here */
+* {
+  background-color: #FFF8DC;
+}
+
+h1, h2 {
+  color: #556B2F;
+  font-size: 60px;
+  text-align: center;
+  line-height: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.item {
+  border: 2px solid black;
+  margin: 0px;
+  padding: 10px;
+}
+.item:hover {
+  background-color: grey;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  background-color: grey;
+}
+
+.img1 {
+  width: 100%;
+}
+
+p {
+  margin: 0 100px;
+  border: 50px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.flex-container .p2 img {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin: 5px; 
+  flex-wrap: wrap;
+}
+.container2 {
+  width:100%;
+  display: flex;
+  padding: 40px;
+  height: 30%;
+  margin: o auto;
+}
+
+.container2 img {
+  width: 30%;
+  height: 300px;
+  margin: 10px;
+}
+.p2 {
+  width: 30%;
+  height: 30%;
+  font-size: 25px;
+  margin: 40px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+  .contact {
+    text-align: center;
+    font-size: 25px;
+    background-color: violet;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 50px
+  }
+
+button {
+  border: solid black;
+  margin: 0 auto;
+  padding 0 auto;
+  margin: 30px;
+}
+button a:hover {
+  background-color: grey;
+}
+.social {
+  background-color: violet;
+}
+
+@media(max-width: 500px){
+  .container2 {
+      background-color: grey;
+      flex-direction: column;
+  }
